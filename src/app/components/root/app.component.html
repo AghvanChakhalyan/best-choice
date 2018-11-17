@@ -1,4 +1,7 @@
-<app-header *ngIf="!WelcomeComponent"></app-header>
+<div *ngIf="siteHeader">
+  <app-header></app-header>
+</div>
+
 
 <div *ngIf="showSideBar">
   <app-side-bar></app-side-bar>

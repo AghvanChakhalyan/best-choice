@@ -7,7 +7,7 @@
 
 # dependencies
 /node_modules
-/package-lock.json
+package-lock.json
 
 # IDEs and editors
 /.idea
@@ -17,6 +17,7 @@
 *.launch
 .settings/
 *.sublime-workspace
+package-lock.json
 
 # IDE - VSCode
 .vscode/*
@@ -37,5 +38,8 @@ testem.log
 
 # System Files
 .DS_Store
+<<<<<<< HEAD
 Thumbs.db
 package-lock.json
+=======
+>>>>>>> ea0e02781df38e5e76a9429c4afdfaeedde0100d

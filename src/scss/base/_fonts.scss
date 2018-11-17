@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./scss/fonts/roboto-regular/roboto-regular-webfont.woff2') format('woff2'),
+  url('./scss/fonts/roboto-regular/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AS_Black_Swan';
+  src: url('./scss/fonts/AS_Black_Swan/AS_Black_Swan.eot');
+  src: local('☺'), url('./scss/fonts/AS_Black_Swan/AS_Black_Swan.woff') format('woff'), url('./scss/fonts/AS_Black_Swan/AS_Black_Swan.ttf') format('truetype'), url('./scss/fonts/AS_Black_Swan/AS_Black_Swan.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fredoka_One';
+  src: url('./scss/fonts/Fredoka_One/FredokaOne-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe WP N';
+  src: url('./scss/fonts/SegoeWPN/SegoeWPN.woff2') format('woff2'),
+  url('./scss/fonts/SegoeWPN/SegoeWPN.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

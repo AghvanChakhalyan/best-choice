@@ -55,5 +55,12 @@ export class ContactUsComponent implements OnInit {
       phoneControls.push(new FormControl('+374'));
     }
   }
+  public removedPhoneControl(): void {
+    const phoneControls = (<FormArray>this.contactUsForm.controls['phones']);
+
+    if (phoneControls.length > 1) {
+      phoneControls.removeAt(1);
+    }
+  }
 
 }

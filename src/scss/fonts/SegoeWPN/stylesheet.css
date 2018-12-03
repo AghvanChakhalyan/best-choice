@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Segoe WP N';
+    src: url('SegoeWPN.woff2') format('woff2'),
+        url('SegoeWPN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

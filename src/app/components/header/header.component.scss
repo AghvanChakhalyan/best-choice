@@ -1,0 +1,45 @@
+@import "~src/scss/core/variables";
+
+.navbg {
+  background: $blue;
+  height: $headerHeight;
+  font-family: robotoregular, serif;
+  .navbar-brand {
+    font: 40px AS_Black_Swan
+  }
+  .active_nav {
+    color: #2c98f0;
+    transition: color 1s;
+    //transition-delay: 0.3s;
+    &::after{
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+}
+
+.nav-item a{
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    bottom: 7px;
+    left: 5%;
+    right: 0;
+    background-color: $orange;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s cubic-bezier(.01, .49, .99, .57);
+  }
+  &:hover {
+    &::after{
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+}
+.language{
+  right: 20px;
+}
